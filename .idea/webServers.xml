@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79d12d1c-67c4-4fea-ba90-eafcebd3236b" name="wei@Lambda-Vector-Imputation-public">
+        <fileTransfer accessType="SFTP" host="128.101.125.153" port="22" sshConfigId="2ecf7d03-5413-442d-8128-b57d60e4f2fa" sshConfig="wei@128.101.125.153:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

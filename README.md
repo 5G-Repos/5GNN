@@ -1,8 +1,8 @@
 # 5GNN: Extrapolating 5G Measurements through GNNs
 
-This repository provides code, data and materials corresponding to the [CoNEXT-GNNet 2022](https://bnn.upc.edu/workshops/gnnet2022/) paper [5GNN: Extrapolating 5G Measurements through GNNs](materials/CoNexT_Worskhop_5GNN_paper.pdf) (Wei Ye, Xinyue Hu, Tian Liu, Ruoyu Sun, Yanhua Li, and Zhi-Li Zhang).
+This repository provides materials, datasets and codes corresponding to the [CoNEXT-GNNet 2022](https://bnn.upc.edu/workshops/gnnet2022/) paper [5GNN: Extrapolating 5G Measurements through GNNs](materials/CoNexT_Worskhop_5GNN_paper.pdf) (Wei Ye, Xinyue Hu, Tian Liu, Ruoyu Sun, Yanhua Li, and Zhi-Li Zhang).
 
-If you have any questions or want more datasets, please email [ye000094@umn.edu](mailto:ye000094@umn.edu) directly for quick response. 
+If you have any questions or want more (raw) datasets, please email [ye000094@umn.edu](mailto:ye000094@umn.edu) directly for quick response. 
 
 
 # Introduction 
@@ -23,7 +23,7 @@ We propose a novel learning paradigm based on graph neural networks (GNNs), dubb
 
 
 ### Commercial 5G Dataset
-We conduct comprehensive measurement campaigns to collect the signal and radio channel dataset in a public square near a large football stadium in downtown Minneapolis, where covered diverse 4G and 5G bands. 
+We conduct comprehensive measurement campaigns to collect the signal and radio channel dataset in a public square near a large football stadium in downtown Minneapolis (USA), where covered diverse 4G and 5G bands. 
 
 ![Overview of *5GNN*](materials/figs/measurement.png)
 
@@ -33,7 +33,7 @@ We conduct comprehensive measurement campaigns to collect the signal and radio c
 # Implementation
 
 ### Structure
-The folder ```code``` contains the necessary Python code, including program entry with hyper-parameter settings (```main.py```), neural network architecture (```model_*.py```), model training (```wrapper_*.py```), and other utilities (```utils_*.py```).  
+The folder ```code``` contains the necessary Python scripts, including program entry with hyper-parameter settings (```main.py```), neural network architecture (```model_*.py```), model training (```wrapper_*.py```), and other utility functions (```utils_*.py```).  
 
 The folder ```data``` contains the collected datasets, including the DeepMIMO simulation data and collected commercial 5G data.
 
@@ -49,7 +49,7 @@ Meanwhile, our implementation also involves other widely-used libraries, includi
 
 
 ### Acknowledgement 
-Partial functions are built on Konstantin Klemmer's work 
+Some functions are modified from 
 [PE-GNN](https://github.com/konstantinklemmer/pe-gnn).
 
 We thank these authors for providing easy-to-use libraries or making their code publicly available. 
@@ -59,13 +59,12 @@ We thank these authors for providing easy-to-use libraries or making their code 
 # Citation 
 If you want to cite our work, you can use the following reference:
 ```
-@inproceedings{
-    weiye20225GNN,
-    title={5GNN: Extrapolating 5G Measurements through GNNs},
-    author={Ye, Wei and Hu, Xinyue and Liu, Tian and Sun, Ruoyu and Li, Yanhua and Zhang, Zhi-Li},
-    booktitle={Proceedings of the ACM CoNEXT 2022 Workshop on Graph Neural Networking},
-    year={2022},
-    note={Accepted}
+@inproceedings{ye20225gnn,
+  title={5GNN: extrapolating 5G measurements through GNNs},
+  author={Ye, Wei and Hu, Xinyue and Liu, Tian and Sun, Ruoyu and Li, Yanhua and Zhang, Zhi-Li},
+  booktitle={Proceedings of the 1st International Workshop on Graph Neural Networking},
+  pages={36--41},
+  year={2022}
 }
 ```
 

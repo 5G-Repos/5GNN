@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="wei@Lambda-Vector-Imputation-public" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="wei@Lambda-Quad-Imputation">
         <serverdata>
@@ -16,6 +16,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="wei@Lambda-Vector-Imputation-public">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/wei/5Gproj/public" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
