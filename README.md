@@ -1,6 +1,6 @@
 # 5GNN: Extrapolating 5G Measurements through GNNs
 
-This repository provides materials, datasets and codes corresponding to the [CoNEXT-GNNet 2022](https://bnn.upc.edu/workshops/gnnet2022/) paper [5GNN: Extrapolating 5G Measurements through GNNs](materials/CoNexT_Worskhop_5GNN_paper.pdf) (Wei Ye, Xinyue Hu, Tian Liu, Ruoyu Sun, Yanhua Li, and Zhi-Li Zhang).
+This repository provides materials, datasets and codes corresponding to the [CoNEXT-GNNet 2022](https://bnn.upc.edu/workshops/gnnet2022/) paper [5GNN: Extrapolating 5G Measurements through GNNs](https://dl.acm.org/doi/abs/10.1145/3565473.3569186) (Wei Ye, Xinyue Hu, Tian Liu, Ruoyu Sun, Yanhua Li, and Zhi-Li Zhang).
 
 If you have any questions or want more (raw) datasets, please email [ye000094@umn.edu](mailto:ye000094@umn.edu) directly for quick response. 
 
